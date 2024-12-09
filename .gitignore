@@ -1,0 +1,115 @@
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# NetBurner specific
+*.s19
+*.elf
+*.bin
+*.map
+*.lst
+*.hex
+nbproject/
+*.nburn
+
+# IDE specific files
+## Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+## Eclipse
+.project
+.cproject
+.settings/
+.metadata/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+## macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Configuration files that might contain sensitive information
+config.private.h
+secrets.h
+credentials.h
+
+# Dependency directories
+deps/
+vendor/
+
+# Documentation generated files
+doc/generated/
+doxygen/
+
+# Test coverage reports
+coverage/
+*.gcno
+*.gcda
+*.gcov
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Project specific ignores
+# Add any project-specific files or directories that should be ignored
+chamber_config_local.h
+test_results/
+calibration_data/
