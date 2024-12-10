@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rtos-dev:
+    volumes:
+      - ./.vscode:/rtos_workspace/.vscode
+      - ./tests:/rtos_workspace/tests
+    environment:
+      - DEBUG_LEVEL=debug
+      - NETBURNER_SDK_DEBUG=1
+    ports:
+      - "8080:8080"  # For debug server
+      - "9090:9090"  # For test server
+    command: tail -f /dev/null  # Keep container running
